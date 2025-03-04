@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>wed Nguuu</title>
+            <link rel="stylesheet" href="style.css" />
+            <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+            />
+            <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+            integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+            />
+    </head>
+        <body>
+            <div id="wrapper">
+                <header id="header">
+                    <div href="" class="logo">
+                    <img src="image/logo.jpg2.jfif" alt="" />
+                    </div>
+                    <div id="menu" class="hidden">
+                    <li class="item"><a href="index.html">Trang Chủ</a></li>
+                    <li class="item">
+                        <a href="#" class="brand">Thương Hiệu</a>
+                        <!-- Brand Form -->
+                        <div id="form-brand" class="overlay">
+                        <div class="form-content">
+                            <h2>Danh sách thương hiệu</h2>
+                            <ul class="list-brand">
+                            <li class="item">
+                                <a href="">
+                                <img src="/image/th_1_11zon.jpeg" alt="Brand 1" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="">
+                                <img src="/image/th_2_11zon.jpeg" alt="Brand 2" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="">
+                                <img src="/image/th_3_11zon.jpeg" alt="Brand 3" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="">
+                                <img src="/image/th_5_11zon.jpeg" alt="Brand 3" />
+                                </a>
+                            </li>
+                            </ul>
+                            <button class="close-btn">Đóng</button>
+                        </div>
+                        </div>
+                    </li>
+                    <li class="item"><a href="">Blog</a></li>
+                    <li class="item"><a href="">Liên Hệ</a></li>
+                    </div>
+                    <div id="actions">
+                    <li class="item">
+                        <input type="text" placeholder="Tìm Kiếm" class="search"/><i
+                        class="fa-solid fa-magnifying-glass"
+                        ></i>
+                    </li>
+                    <li class="item"><i class="fa-solid fa-user"></i></li>
+                    <li class="item"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    </div>
+                </header>
+                <!--------------------cart-->
+                <section class="delivery">
+                    <div class="container">
+                        <div class="delivery-top-wrap">
+                            <div class="delivery-top">
+                                <div class="delivery-top-cart delivery-top-item">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div class="delivery-top-adress delivery-top-item">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="delivery-top-payment delivery-top-item">
+                                    <i class="fa-solid fa-money-check"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------------------------------delivery------------------------>
+                    <div class="container ">
+                        <div class="delivery-content row">
+                            <div class="delivery-container-left">
+                                <p>Vui lòng chọn địa chỉ giao hàng</p>
+                                <div class="delivery-container-left-input-top row">
+                                    <div class="delivery-container-left-input-top-item">
+                                        <label for="name">Họ tên<span style="color: red;">*</span></label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="delivery-container-left-input-top-item">
+                                        <label for="phone">Điện thoại<span style="color: red;">*</span></label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="delivery-container-left-input-top-item">
+                                        <label for="address">Tỉnh/TP<span style="color: red;">*</span></label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="delivery-container-left-input-top-item">
+                                        <label for="address">Quận/Huyện<span style="color: red;">*</span></label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="delivery-container-left-input-bottom">
+                                    <label for="address">Phường xã<span style="color: red;">*</span></label>
+                                    <input type="text">
+                                </div>
+                                <div class="delivery-container-left-input-bottom">
+                                    <label for="address">Đia chỉ<span style="color: red;">*</span></label>
+                                    <input type="text">
+                                </div>
+                                <div class="delivery-container-left-button row">
+                                    <a href="cart.html"><span>&#171;</span>Quay lại giỏ hàng</a>
+                                    <a href="payment.html"><button>THANH TOÁN VÀ GIAO HÀNG</button></a>
+                                </div>
+                                
+                            </div>
+                            <div class="delivery-container-right">
+                                <table>
+                                    <tr>
+                                        <th>Tên sản phẩm</th>
+                                        <th>Số Lượng</th>
+                                        <th>Thành tiền</th>
+                                    </tr>
+                                    <tr>    
+                                        <td>san pham 1</td>
+                                        <td>1</td>
+                                        <td>300000<sup>đ</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td>san pham 2</td>
+                                        <td>1</td>
+                                        <td>600000<sup>đ</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;" colspan="2">Tổng</td>
+                                        <td style="font-weight: bold;">900000<sup>đ</sup></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+                
+                
+                <!-------------footer-->
+                <section>
+                    <div id="footer">
+                    <ul id="footer-tile">
+                    <div class="item">
+                        <h3>ĐỊA CHỈ CỬA HÀNG</h3>
+                        <div class="address">284a, ba láng, cái răng, cần thơ</div>
+                        <div class="phone">Hotline:0706679352</div>
+                    </div>
+                    <div class="item">
+                        <h3>Liên Hệ</h3>
+                        <ul id="icon">
+                        <div class="fb"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="tiktok"><i class="fa-brands fa-tiktok"></i></div>
+                        <div id="gg">
+                            <a "><i class="fa-brands fa-google"></i></a>
+                        </div>
+                        </ul>
+                    </div>
+                    </ul>
+                </div>
+                </section>
+            </div>
+            <script src="script.js"></script> 
+        </body>
+    </html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wed Nguuu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div href="" class="logo">
+          <img src="image/logo.jpg2.jfif" alt="" />
+        </div>
+        <div id="menu" class="hidden">
+          <li class="item"><a href="index.html">Trang Chủ</a></li>
+          <li class="item">
+            <a href="#" class="brand">Thương Hiệu</a>
+            <!-- Brand Form -->
+            <div id="form-brand" class="overlay">
+              <div class="form-content">
+                <h2>Danh sách thương hiệu</h2>
+                <ul class="list-brand">
+                  <li class="item">
+                    <a href="">
+                      <img src="/image/th_1_11zon.jpeg" alt="Brand 1" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="/image/th_2_11zon.jpeg" alt="Brand 2" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="/image/th_3_11zon.jpeg" alt="Brand 3" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="/image/th_5_11zon.jpeg" alt="Brand 3" />
+                    </a>
+                  </li>
+                </ul>
+                <button class="close-btn">Đóng</button>
+              </div>
+            </div>
+          </li>
+          <li class="item"><a href="">Blog</a></li>
+          <li class="item"><a href="">Liên Hệ</a></li>
+        </div>
+        <div id="actions">
+          <li class="item">
+            <input type="text" placeholder="Tìm Kiếm" class="search"/><i
+            class="fa-solid fa-magnifying-glass"
+            ></i>
+        </li>
+          <li class="item"><i class="fa-solid fa-user"></i></li>
+          <li class="item"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </div>
+      </header>
+      <section class="products">
+        <div class="contaner">
+          <div class="products-content">
+            <div class="products-left">
+              <div class="products-left-big-img">
+                <img src="image/afnan_1.jpg" alt="" />
+              </div>
+              <div class="products-left-small-img">
+                <img src="image/afnan_1.jpg" alt="" />
+                <img src="image/afnan_2-300x300.jpg" alt="" />
+                <img src="image/afnanr_3.jpg" alt="" />
+                <img src="image/afnan_4.jpg" alt="" />
+              </div>
+            </div>
+            <div class="products-right">
+              <div class="products-right-name">
+                <h2>Afnan Supremacy Silver EDP</h2>
+                <p>
+                  Hương thơm nam tính và tinh tế, lý tưởng cho cả ngày làm việc
+                  và các buổi tiệc tối.
+                </p>
+                <p>Thương hiệu: Afan</p>
+                <p>Loại sản phẩm: Nước hoa nam</p>
+                <p>ms:113</p>
+              </div>
+              <div class="products-right-price">
+                <p>800.000<sup>đ</sup></p>
+              </div>
+              <div class="products-right-size">
+                <p style="font-weight: bold">size</p>
+                <div class="size">
+                  <div class="size-option" onclick="selectSize(this)">
+                      30 ml
+                  </div>
+                  <div class="size-option" onclick="selectSize(this)">
+                      100 ml
+                  </div>
+                  <div class="size-option" onclick="selectSize(this)">
+                      150 ml
+                  </div>
+              </div>
+              </div>
+              <div class="quantity">
+                <p style="font-weight: bold">Số lượng</p>
+                <input type="number" min="0" value="1" />
+                <p style="color: red">Vui lòng chọn size</p>
+              </div>
+              <div class="products-content-button">
+                <button>Thêm vào giỏ hàng</button>
+                <button>Mua ngay</button>
+              </div>
+
+              <div class="products-content-button-detail">
+                <div class="products-content-button-top" onclick="btnchitiet()">
+                  <img src="image/image-down.png" alt="" />
+                </div>
+                <div class="products-content-button-tile-content">
+                  <p>Chi tiết</p>
+                </div>
+
+                <div class="product-content-button-tile"></div>
+                <div
+                  class="product-content-button-tile-detail"
+                  style="line-height: 1.5"
+                >
+                  <div class="product-content-button-tile-detail-chitiet">
+                    <p>Xuất xứ: Pháp</p>
+                    <p>Năm phát hành: 2017</p>
+                    <p>Nồng độ: Eau de Parfum (EDP)</p>
+                    <p>Nhóm hương: Hoa Cỏ</p>
+                    <p>Nhà chế tác: Quentin Bisch</p>
+                    <p>
+                      Phong cách: Lãng mạn (Romantic), Nữ tính (Feminine), Thoải
+                      mái (Casual), Tươi mát (Fresh)
+                    </p>
+                    <p>Dịp sử dụng: Hàng ngày, Văn phòng, Mùa hè, Du lịch</p>
+
+                    Parfums De Marly Delina là một chai nước hoa thuộc nhóm
+                    hương Floral Fruity, ra mắt năm 2017. Được sáng tạo bởi nhà
+                    pha chế nổi tiếng Quentin Bisch, Delina nổi bật với sự hòa
+                    quyện hoàn hảo của các hương liệu tinh túy, mang lại một mùi
+                    hương tinh tế và quyến rũ. <br />
+                    Delina mở đầu với sự tươi mát của Rhubarb, Lychee và
+                    Bergamot, tạo nên một cảm giác sảng khoái ngay từ những nốt
+                    hương đầu tiên. Khi bước vào tầng hương giữa, mùi hương của
+                    hoa hồng Thổ Nhĩ Kỳ và hoa mẫu đơn kết hợp với vanilla và xạ
+                    hương, mang lại cảm giác ngọt ngào, nữ tính nhưng không kém
+                    phần sang trọng. Cuối cùng, tầng hương cuối với Cashmeran,
+                    Cedar và Haitian Vetiver, thêm vào một chút hương khói của
+                    Incense, làm cho mùi hương trở nên ấm áp, bền lâu và lôi
+                    cuốn. <br />
+                    Hương thơm của Delina mang lại cảm giác thanh lịch và lôi
+                    cuốn, phù hợp với môi trường sang trọng như các sự kiện quan
+                    trọng, buổi tiệc tối hoặc các buổi hẹn hò lãng mạn. Đây là
+                    một mùi hương dễ gây ấn tượng và làm say đắm lòng người.
+                    <br />
+                    Thuộc nhóm hương Floral Fruity, Delina phù hợp với những
+                    người phụ nữ yêu thích sự nữ tính, tinh tế và lãng mạn.
+                    Những người sử dụng mùi hương này thường có gu thẩm mỹ cao,
+                    biết cách chăm chút cho bản thân và luôn muốn tạo ra ấn
+                    tượng đặc biệt trong mắt người đối diện. Họ là những người
+                    tự tin, thanh lịch và không ngại nổi bật.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-----------------product-ralated----------->
+
+      <section class="product-relate">
+        <div class="product-related-tile">
+          <p>SẢN PHẨM LIÊN QUAN</p>
+        </div>
+        <div class="product-content">
+          <div class="product-content-item">
+            <a href="chitiet.html"><img src="image/sp_1.jpeg" alt="" /></a>
+            <h1>san pham v.v</h1>
+            <p>3000<sup>đ</sup></p>
+          </div>
+          <div class="product-content-item">
+            <a href="chitiet.html"><img src="image/sp_1.jpeg" alt="" /></a>
+            <h1>san pham v.v</h1>
+            <p>3000<sup>đ</sup></p>
+          </div>
+          <div class="product-content-item">
+            <a href="chitiet.html"><img src="image/sp_1.jpeg" alt="" /></a>
+            <h1>san pham v.v</h1>
+            <p>3000<sup>đ</sup></p>
+          </div>
+          <div class="product-content-item">
+            <a href="chitiet.html"><img src="image/sp_1.jpeg" alt="" /></a>
+            <h1>san pham v.v</h1>
+            <p>3000<sup>đ</sup></p>
+          </div>
+          <div class="product-content-item">
+            <a href="chitiet.html"><img src="image/sp_1.jpeg" alt="" /></a>
+            <h1>san pham v.v</h1>
+            <p>3000<sup>đ</sup></p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="footer">
+        <ul id="footer-tile">
+          <div class="item">
+            <h3>ĐỊA CHỈ CỬA HÀNG</h3>
+            <div class="address">284a, ba láng, cái răng, cần thơ</div>
+            <div class="phone">Hotline:0706679352</div>
+          </div>
+          <div class="item">
+            <h3>Liên Hệ</h3>
+            <ul id="icon">
+              <div class="fb"><i class="fa-brands fa-facebook"></i></div>
+              <div class="tiktok"><i class="fa-brands fa-tiktok"></i></div>
+              <div id="gg">
+                <a "><i class="fa-brands fa-google"></i></a>
+              </div>
+            </ul>
+          </div>
+        </ul>
+      </div>
+      </section>
+    </div>
+    <script src="script.js" >
+    </script>
+  </body>
+</html>
