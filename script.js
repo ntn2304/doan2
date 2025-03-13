@@ -94,3 +94,12 @@ function selectSize(element) {
   element.classList.add("selected");
 }
 /*-------------------email---------------*/
+document.getElementById("faceb").onclick=function(){
+  window.open("https://www.facebook.com/phelanux.hidden/","blank");
+};
+document.getElementById("tikk").onclick=function(){
+  window.open("https://tiktok.com","blank");
+}
+document.getElementById("gg").onclick=function(){
+  window.open("https://maps.app.goo.gl/ZeFPfCLwiTvC3Ad67","blank");
+}
