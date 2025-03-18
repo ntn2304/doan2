@@ -95,11 +95,11 @@ function selectSize(element) {
 }
 /*-------------------email---------------*/
 document.getElementById("faceb").onclick=function(){
-  window.open("https://www.facebook.com/phelanux.hidden/","blank");
+  window.open("https://www.facebook.com/phelanux.hidden/","_blank");
 };
 document.getElementById("tikk").onclick=function(){
   window.open("https://tiktok.com","blank");
 }
 document.getElementById("gg").onclick=function(){
-  window.open("https://maps.app.goo.gl/ZeFPfCLwiTvC3Ad67","blank");
+  window.open("https://maps.app.goo.gl/ZeFPfCLwiTvC3Ad67","_blank");
 }
