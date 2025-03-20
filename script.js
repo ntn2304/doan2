@@ -100,6 +100,14 @@ document.getElementById("faceb").onclick=function(){
 document.getElementById("tikk").onclick=function(){
   window.open("https://tiktok.com","blank");
 }
-document.getElementById("gg").onclick=function(){
-  window.open("https://maps.app.goo.gl/ZeFPfCLwiTvC3Ad67","_blank");
-}
+// document.getElementById("gg").onclick=function(){
+//   window.open("https://maps.app.goo.gl/ZeFPfCLwiTvC3Ad67","_blank");
+// }
+document.getElementById("gg").onclick = function() {
+  let email = "baba1999m.m@gmail.com";
+  let subject = encodeURIComponent("Tiêu đề email");
+  let body = encodeURIComponent("Nội dung email tại đây");
+
+  let gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+  window.open(gmailUrl, "_blank");
+};
